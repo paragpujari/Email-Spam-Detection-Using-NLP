@@ -20,14 +20,11 @@ There are total 5572 records of the email texts in the dataset. From this record
 
 ## Approach
 
-1.  First the diabetes dataset is obtained.
+1.  First the email dataset is obtained.
 2.  Then the dataset is cleaned and preprocessed.
-3.  The dataset is divided into independent(input features) and dependent(output features).
-4.  As all the input features in the dataset are in different range, so Standardization is done to keep all the input features in one range.
-5.  The dataset is divided into training and testing data.
-6.  Two Machine Learning Models(Logistic Regression) and (Support Vector Machines) are used to test the accuracy level of the model.
-7.  Using the above two models, the data is first trained, then using the test data, the model is predicted and we get the predicted output for each algorithms.
-8.  Then we calculate the accuracy value for each training and testing data for both the models.
-9.  The model that has better accuracy will be considered for determining the  diabetic condition of the patient.
-10. A prediction system is also built that helps in determining whether the person is having diabetes or not using a test data.
-11. Then we have developed the web application for depicting the diabetic condition of the patient.
+3.  Then Exploratory Data Analysis(EDA) is performed on the dataset and we have formed three new columns named as 'number_of_characters', 'number_of_words','number_of_sentences'. Then we have performed statistical analysis on it.
+4.  Data is preprocessed where it is converted into lower case and all the special characters has been removed from it.
+5.  Count Vectorizer and tfidf vectorizer is performed on the preprocessed data where the text is converted into the numbers.
+6.  Various Machine Learning algorithms has been applied on the vectorized data , so that the models can be easily be trained on the data and we can easily get the accuracy and the precision scores.
+7.  For improving the accuracy of the model, votingclassifier and StackClassifier has been applied on the dataset so that the accuracy of the model can be imporved.
+8.  Then we have developed the web application for determining whether the email is spam or not.
