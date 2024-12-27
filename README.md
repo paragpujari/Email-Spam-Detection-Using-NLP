@@ -10,3 +10,11 @@ The main motto of this project is to  detect whether the email is spam or ham.
 
 ## Problem Statement:
 Email spam detection is the process of filtering out unwanted or unsolicited emails, commonly known as spam, from legitimate emails (ham). Detecting the spam messages from ham  at an early stage can serve as potential indicators of saving our emails, which is crucial in our fight against the hackers. Therefore, to detect whether the email is spam or not, we aim to use two natural language techniques names as Count Vectorizer and Tfidfvectorizer for vectorizing the text into numbers and then applying various machine learning algorithms to detect whether the email is spam or not.
+
+## Dataset:
+
+There are total 5572 records of the email texts in the dataset. From this records, there are total one input features('Text') and one Output feature ('Target')
+
+1.    Text                           --------->   Message Text
+2.    Target                         --------->   Type of the Message Text 
+
