@@ -1,1 +1,1 @@
-# Diabetes Disease Prediction System - A Machine Learning Approach
+# Email Spam Detection System - A Natural Learning Processing Approach
