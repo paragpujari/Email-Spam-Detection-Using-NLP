@@ -47,3 +47,17 @@ There are total 5572 records of the email texts in the dataset. From this record
 13. Gradient Boosting Classifier
 14. XGB Classifier
 
+
+## HYPER PARAMETERS USED:
+
+1. kernel
+2. gamma
+3. max_depth
+4. solver
+5. penalty
+6. n_estimators
+7. random_state
+8. probability
+9. voting
+10. estimators
+11. final_estimator
