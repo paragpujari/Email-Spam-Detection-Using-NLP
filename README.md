@@ -68,25 +68,30 @@ There are total 5572 records of the email texts in the dataset. From this record
 1. Gaussian Naive Bayes
 
    a.  accuracy_score  = 86.94390715667312
+   
    b.  precision_score = 0.5068493150684932
 
 
-2. Multinomial Naive Bayes
+3. Multinomial Naive Bayes
 
    a. accuracy_score =  97.09864603481626
+   
    b. precision_score = 1.0
 
-3. Binomial Naive Bayes
+5. Binomial Naive Bayes
 
    a. accuracy_score = 98.35589941972921
+   
    b. precision_score = 0.991869918699187
 
-4. Voting Classifier
+7. Voting Classifier
 
    a. accuracy_score = 98.16247582205028
+   
    b. precision_score = 0.9917355371900827
 
-5. Stacking Classifier
+9. Stacking Classifier
 
    a. accuracy_score = 97.87234042553192
+   
    b. precision_score = 0.9393939393939394
