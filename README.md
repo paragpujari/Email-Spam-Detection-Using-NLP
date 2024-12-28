@@ -23,7 +23,7 @@ There are total 5572 records of the email texts in the dataset. From this record
 1.  First the email dataset is obtained.
 2.  Then the dataset is cleaned and preprocessed.
 3.  Then Exploratory Data Analysis(EDA) is performed on the dataset and we have formed three new columns named as 'number_of_characters', 'number_of_words','number_of_sentences'. Then we have performed statistical analysis on it.
-4.  Data is preprocessed where it is converted into lower case and all the special characters has been removed from it.
+4.  Text Data is preprocessed where it is converted into lower case and all the special characters has been removed from it. Stop words , punctuations has been removed and the stemming has been done to bring out the correct root words.
 5.  Count Vectorizer and tfidf vectorizer is performed on the preprocessed data where the text is converted into the numbers.
 6.  Various Machine Learning algorithms has been applied on the vectorized data , so that the models can be easily be trained on the data and we can easily get the accuracy and the precision scores.
 7.  For improving the accuracy of the model, votingclassifier and StackClassifier has been applied on the dataset so that the accuracy of the model can be imporved.
