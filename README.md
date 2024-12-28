@@ -28,3 +28,4 @@ There are total 5572 records of the email texts in the dataset. From this record
 6.  Various Machine Learning algorithms has been applied on the vectorized data , so that the models can be easily be trained on the data and we can easily get the accuracy and the precision scores.
 7.  For improving the accuracy of the model, votingclassifier and StackClassifier has been applied on the dataset so that the accuracy of the model can be imporved.
 8.  Then we have developed the web application for determining whether the email is spam or not.
+9.  Here from this project, Multinomial Naive Bayes is considered for this project as it has the highest score.
