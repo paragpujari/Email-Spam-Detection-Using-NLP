@@ -27,8 +27,9 @@ There are total 5572 records of the email texts in the dataset. From this record
 5.  Count Vectorizer and tfidf vectorizer is performed on the preprocessed data where the text is converted into the numbers.
 6.  Various Machine Learning algorithms has been applied on the vectorized data , so that the models can be easily be trained on the data and we can easily get the accuracy and the precision scores.
 7.  For improving the accuracy of the model, votingclassifier and StackClassifier has been applied on the dataset so that the accuracy of the model can be imporved.
-8.  Then we have developed the web application for determining whether the email is spam or not.
-9.  Here from this project, Multinomial Naive Bayes is considered for this project as it has the highest score.
+8.  Files has been created for the objects of tfidf and mnb so that we can use these files while developing the website to predict the type of text message.
+9.  Then we have developed the web application for determining whether the email is spam or not.
+10.  Here from this project, Multinomial Naive Bayes is considered for this project as it has the highest score.
 
 ## ALGORITHMS USED:
 
@@ -61,3 +62,31 @@ There are total 5572 records of the email texts in the dataset. From this record
 9. voting
 10. estimators
 11. final_estimator
+
+## OUTPUT:
+
+1. Gaussian Naive Bayes
+
+   a.  accuracy_score  = 86.94390715667312
+   b.  precision_score = 0.5068493150684932
+
+
+2. Multinomial Naive Bayes
+
+   a. accuracy_score =  97.09864603481626
+   b. precision_score = 1.0
+
+3. Binomial Naive Bayes
+
+   a. accuracy_score = 98.35589941972921
+   b. precision_score = 0.991869918699187
+
+4. Voting Classifier
+
+   a. accuracy_score = 98.16247582205028
+   b. precision_score = 0.9917355371900827
+
+5. Stacking Classifier
+
+   a. accuracy_score = 97.87234042553192
+   b. precision_score = 0.9393939393939394
