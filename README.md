@@ -29,3 +29,21 @@ There are total 5572 records of the email texts in the dataset. From this record
 7.  For improving the accuracy of the model, votingclassifier and StackClassifier has been applied on the dataset so that the accuracy of the model can be imporved.
 8.  Then we have developed the web application for determining whether the email is spam or not.
 9.  Here from this project, Multinomial Naive Bayes is considered for this project as it has the highest score.
+
+## ALGORITHMS USED:
+
+1.  Gaussian Naive Bayes
+2.  Multinomial Naive Bayes
+3.  Bernoulli Naive Bayes
+4.  Logistic Regression
+5.  Support Vector Machines
+6.  Multinomial Naive Bayes
+7.  Decision Tree Classifier
+8.  K Neighbors Classifier
+9.  Random Forest Classifier
+10. Ada Boost Classifier
+11. Bagging Classifier
+12. Extra Trees Classifier
+13. Gradient Boosting Classifier
+14. XGB Classifier
+
